@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="System Backup Request Table" max_length="40" name="x_68987_system_bac_system_backup_request_table" type="collection">
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Backup Type" max_length="40" name="u_backuptype_1" type="string">
+            <choice/>
+        </element>
+        <element label="Expiry date: (Optional)" max_length="40" name="u_glide_date_10" type="glide_date"/>
+        <element label="Effective date &amp; time: (for reference only) " max_length="40" name="u_glide_date_time_9" type="glide_date_time"/>
+        <element label="No. of copies" max_length="40" name="u_integer_8" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Source Machine Name" max_length="40" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Services Description" max_length="40" name="u_string_11" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Justification" max_length="40" name="u_string_12" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Impact" max_length="40" name="u_string_13" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Source Path" max_length="40" name="u_string_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Destination Machine Name" max_length="40" name="u_string_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Destination Path" max_length="40" name="u_string_4" type="string"/>
+    </element>
+</database>

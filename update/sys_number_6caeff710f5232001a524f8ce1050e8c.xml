@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_68987_system_bac_system_backup_request_table">x_68987_system_bac_system_backup_request_table</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>SYS</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-24 07:25:50</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>6caeff710f5232001a524f8ce1050e8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SYS</sys_name>
+        <sys_package display_value="System Backup Request" source="x_68987_system_bac">7f9e73310f1232001a524f8ce1050e84</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="System Backup Request">7f9e73310f1232001a524f8ce1050e84</sys_scope>
+        <sys_update_name>sys_number_6caeff710f5232001a524f8ce1050e8c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-24 07:25:50</sys_updated_on>
+    </sys_number>
+</record_update>
