@@ -2,170 +2,44 @@
 <record_update>
     <sys_ui_section caption="Request key Content" section_id="4778c8060f5232001a524f8ce1050e65" sys_domain="global" table="x_68987_system_bac_system_backup_request_table" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_string_1</element>
+            <element>u_string_11</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-24 08:08:55</sys_created_on>
-            <sys_id>e778c8060f5232001a524f8ce1050e78</sys_id>
+            <sys_created_on>2017-04-24 08:36:50</sys_created_on>
+            <sys_id>2ceec8860f5232001a524f8ce1050ed3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Request key Content" display_value="Request key Content" name="x_68987_system_bac_system_backup_request_table" sys_domain="global" view="Default view">4778c8060f5232001a524f8ce1050e65</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-24 08:08:55</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_string_3</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-24 08:08:55</sys_created_on>
-            <sys_id>6b78c8060f5232001a524f8ce1050e78</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Request key Content" display_value="Request key Content" name="x_68987_system_bac_system_backup_request_table" sys_domain="global" view="Default view">4778c8060f5232001a524f8ce1050e65</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-24 08:08:55</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_glide_date_time_9</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-24 08:08:55</sys_created_on>
-            <sys_id>eb78c8060f5232001a524f8ce1050e78</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Request key Content" display_value="Request key Content" name="x_68987_system_bac_system_backup_request_table" sys_domain="global" view="Default view">4778c8060f5232001a524f8ce1050e65</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-24 08:08:55</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_backupType_1</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-24 08:08:55</sys_created_on>
-            <sys_id>6f78c8060f5232001a524f8ce1050e78</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Request key Content" display_value="Request key Content" name="x_68987_system_bac_system_backup_request_table" sys_domain="global" view="Default view">4778c8060f5232001a524f8ce1050e65</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-24 08:08:55</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_integer_8</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-24 08:08:55</sys_created_on>
-            <sys_id>ef78c8060f5232001a524f8ce1050e78</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Request key Content" display_value="Request key Content" name="x_68987_system_bac_system_backup_request_table" sys_domain="global" view="Default view">4778c8060f5232001a524f8ce1050e65</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-24 08:08:55</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_string_11</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-24 08:08:55</sys_created_on>
-            <sys_id>6378c8060f5232001a524f8ce1050e79</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Request key Content" display_value="Request key Content" name="x_68987_system_bac_system_backup_request_table" sys_domain="global" view="Default view">4778c8060f5232001a524f8ce1050e65</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-24 08:08:55</sys_updated_on>
+            <sys_updated_on>2017-04-24 08:36:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_string_12</element>
-            <position>6</position>
+            <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-24 08:08:55</sys_created_on>
-            <sys_id>e378c8060f5232001a524f8ce1050e79</sys_id>
+            <sys_created_on>2017-04-24 08:36:50</sys_created_on>
+            <sys_id>aceec8860f5232001a524f8ce1050ed3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Request key Content" display_value="Request key Content" name="x_68987_system_bac_system_backup_request_table" sys_domain="global" view="Default view">4778c8060f5232001a524f8ce1050e65</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-24 08:08:55</sys_updated_on>
+            <sys_updated_on>2017-04-24 08:36:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_string_13</element>
-            <position>7</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-24 08:08:55</sys_created_on>
-            <sys_id>6778c8060f5232001a524f8ce1050e79</sys_id>
+            <sys_created_on>2017-04-24 08:36:50</sys_created_on>
+            <sys_id>20eec8860f5232001a524f8ce1050ed4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Request key Content" display_value="Request key Content" name="x_68987_system_bac_system_backup_request_table" sys_domain="global" view="Default view">4778c8060f5232001a524f8ce1050e65</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-24 08:08:55</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>8</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-24 08:08:55</sys_created_on>
-            <sys_id>e778c8060f5232001a524f8ce1050e79</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Request key Content" display_value="Request key Content" name="x_68987_system_bac_system_backup_request_table" sys_domain="global" view="Default view">4778c8060f5232001a524f8ce1050e65</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-24 08:08:55</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_string_2</element>
-            <position>9</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-24 08:08:55</sys_created_on>
-            <sys_id>6b78c8060f5232001a524f8ce1050e79</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Request key Content" display_value="Request key Content" name="x_68987_system_bac_system_backup_request_table" sys_domain="global" view="Default view">4778c8060f5232001a524f8ce1050e65</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-24 08:08:55</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_string_4</element>
-            <position>10</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-24 08:08:55</sys_created_on>
-            <sys_id>eb78c8060f5232001a524f8ce1050e79</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Request key Content" display_value="Request key Content" name="x_68987_system_bac_system_backup_request_table" sys_domain="global" view="Default view">4778c8060f5232001a524f8ce1050e65</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-24 08:08:55</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_glide_date_10</element>
-            <position>11</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-24 08:08:55</sys_created_on>
-            <sys_id>6f78c8060f5232001a524f8ce1050e79</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Request key Content" display_value="Request key Content" name="x_68987_system_bac_system_backup_request_table" sys_domain="global" view="Default view">4778c8060f5232001a524f8ce1050e65</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-24 08:08:55</sys_updated_on>
+            <sys_updated_on>2017-04-24 08:36:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -6,7 +6,7 @@
         <js_level>helsinki_es5</js_level>
         <licensable>true</licensable>
         <logo/>
-        <menu display_value="System Backup Request">7f9eff710f5232001a524f8ce1050e6c</menu>
+        <menu/>
         <name>System Backup Request</name>
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>

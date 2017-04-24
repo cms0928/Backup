@@ -2,18 +2,40 @@
 <database>
     <element label="System Backup Request Table" max_length="40" name="x_68987_system_bac_system_backup_request_table" type="collection">
         <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Assign To" max_length="32" name="u_assignto_1" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Backup Type" max_length="40" name="u_backuptype_1" type="string">
             <choice/>
         </element>
         <element label="Expiry date: (Optional)" max_length="40" name="u_glide_date_10" type="glide_date"/>
         <element label="Effective date &amp; time: (for reference only) " max_length="40" name="u_glide_date_time_9" type="glide_date_time"/>
         <element label="No. of copies" max_length="40" name="u_integer_8" type="integer"/>
-        <element attributes="edge_encryption_enabled=true" label="Source Machine Name" max_length="40" name="u_string_1" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Services Description" max_length="40" name="u_string_11" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Justification" max_length="40" name="u_string_12" type="string"/>
+        <element dependent="u_assignTo_1" dependent_on_field="u_assignTo_1" label="Assignment Group" max_length="32" name="u_reference_4" read_only="true" reference="sys_user_group" type="reference" use_dependent_field="true"/>
+        <element label="Requested by" max_length="32" name="u_requestedby_1" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="New" label="Status" max_length="40" name="u_status_1" read_only="true" type="string">
+            <choice>
+                <element label="New" sequence="0" value="New"/>
+                <element label="Request Approval" sequence="1" value="Request Approval"/>
+                <element label="First Approved" sequence="2" value="First Approved"/>
+                <element label="Final Approved" sequence="3" value="Final Approved"/>
+                <element label="InProgress" sequence="4" value="InProgress"/>
+                <element label="Completed" sequence="5" value="Completed"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Source Machine Name" mandatory="true" max_length="40" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Services Description" mandatory="true" max_length="4000" name="u_string_11" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Justification" max_length="4000" name="u_string_12" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Impact" max_length="40" name="u_string_13" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Source Path" max_length="40" name="u_string_2" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Destination Machine Name" max_length="40" name="u_string_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Source Path" mandatory="true" max_length="40" name="u_string_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Destination Machine Name" mandatory="true" max_length="40" name="u_string_3" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Destination Path" max_length="40" name="u_string_4" type="string"/>
+        <index name="index">
+            <element name="u_reference_4"/>
+        </index>
+        <index name="index2">
+            <element name="u_requestedby_1"/>
+        </index>
+        <index name="index3">
+            <element name="u_assignto_1"/>
+        </index>
     </element>
 </database>
